@@ -28,9 +28,16 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
+  font-size: 16px;
 }
 #app {
   background: #f2fbfb;
   min-height: 100vh;
+}
+@media only screen and (max-width: 768px) {
+  :root,
+  body {
+    font-size: 10px;
+  }
 }
 </style>

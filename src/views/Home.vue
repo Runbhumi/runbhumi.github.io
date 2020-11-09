@@ -8,7 +8,7 @@
           interests and play with them outdoors
         </h3>
       </div>
-      <img src="../assets/sports-illustration.svg" alt="" width="50%" />
+      <img src="../assets/sports-illustration.svg" alt="" width="60%" />
     </div>
   </div>
 </template>
@@ -30,8 +30,18 @@ export default {
 }
 #main-title {
   font-family: Montserrat;
-  font-size: 54px;
+  font-size: 3.5rem;
   font-weight: bolder;
   color: #000;
+}
+@media only screen and (max-width: 768px) {
+  #home-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4rem;
+    text-align: center;
+  }
 }
 </style>
