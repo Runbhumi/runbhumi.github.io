@@ -2,10 +2,15 @@
   <div id="nav">
     <!-- <router-link to="/">Home</router-link> -->
     <h1 id="icon-and-logo">
-      <img src="../assets/icon.png" alt="Runbhumi" height="32px" />
+      <img
+        src="../assets/icon.png"
+        alt="Runbhumi"
+        height="32px"
+        style="padding:0.3rem; border-radius:11px;"
+      />
       <router-link to="/">Runbhumi</router-link>
     </h1>
-    <router-link to="/about">Contact us</router-link>
+    <h2><router-link to="/contact">Contact us</router-link></h2>
   </div>
 </template>
 

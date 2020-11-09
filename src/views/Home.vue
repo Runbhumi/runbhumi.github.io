@@ -1,9 +1,8 @@
 <template>
   <div class="home">
-    <Navbar></Navbar>
     <div id="home-body">
       <div id="text-on-home">
-        <h1 id="main-title">Connect with your nearest sports community</h1>
+        <p id="main-title">Connect with your nearest sports community</p>
         <h3>
           we provide you with a platform to connect with people of same sports
           interests and play with them outdoors
@@ -16,13 +15,9 @@
 
 <script>
 // @ is an alias to /src
-import Navbar from "@/components/Navbar.vue";
 
 export default {
-  name: "Home",
-  components: {
-    Navbar
-  }
+  name: "Home"
 };
 </script>
 
@@ -36,8 +31,7 @@ export default {
 #main-title {
   font-family: Montserrat;
   font-size: 54px;
-  font-weight: 700;
-  font-style: italic;
+  font-weight: bolder;
   color: #000;
 }
 </style>
