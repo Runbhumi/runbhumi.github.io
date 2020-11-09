@@ -8,7 +8,7 @@
           interests and play with them outdoors
         </h3>
       </div>
-      <img src="../assets/sports-illustration.svg" alt="" width="60%" />
+      <img src="../assets/sports-illustration.svg" alt="" width="50%" />
     </div>
   </div>
 </template>
