@@ -10,7 +10,7 @@
       />
       <router-link to="/">Runbhumi</router-link>
     </h1>
-    <h2><router-link to="/contact">Contact us</router-link></h2>
+    <h2><router-link to="/feedback">Feedback</router-link></h2>
   </div>
 </template>
 
