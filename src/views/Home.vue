@@ -4,8 +4,8 @@
       <div id="text-on-home">
         <p id="main-title">Connect with your nearest sports community</p>
         <h3>
-          we provide you with a platform to connect with people of same sports
-          interests and play with them outdoors
+          Enter the sporting world to make your dream team and compete with others in your locality.
+          Connect | Schedule | Play
         </h3>
       </div>
       <img src="../assets/sports-illustration.svg" alt="" width="50%" />
