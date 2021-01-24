@@ -1,14 +1,14 @@
 <template>
   <div class="home">
-    <div id="home-body">
+    <div id="home-body" style="min-height:90vh;">
       <div id="text-on-home">
         <p id="main-title">Connect with your nearest sports community</p>
         <h3>
-          Enter the sporting world to make your dream team and compete with others in your locality.
-          Connect | Schedule | Play
+          Enter the sporting world to make your dream team and compete with
+          others in your locality. Connect | Schedule | Play
         </h3>
       </div>
-      <img src="../assets/sports-illustration.svg" alt="" width="50%" />
+      <img src="../assets/sports-illustration.svg" alt="" width="45%" />
     </div>
   </div>
 </template>

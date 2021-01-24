@@ -5,10 +5,10 @@
       <img
         src="../assets/icon.png"
         alt="Runbhumi"
-        height="32px"
-        style="padding:0.3rem; border-radius:11px;"
+        height="48px"
+        style="padding:0 0 0 8px; border-radius:12px;"
       />
-      <router-link to="/">Runbhumi</router-link>
+      <router-link to="/" id="name">Runbhumi</router-link>
     </h1>
     <h2><router-link to="/feedback">Feedback</router-link></h2>
   </div>
@@ -23,7 +23,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 #nav {
-  padding: 1rem 8rem;
+  padding: 24px 150px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -31,6 +31,8 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: 800;
+    font-style: italic;
   }
   a {
     font-weight: bold;
@@ -38,7 +40,7 @@ export default {
     text-decoration: none;
 
     &.router-link-exact-active {
-      color: #00adb5;
+      color: #2dadc2;
     }
   }
 }
